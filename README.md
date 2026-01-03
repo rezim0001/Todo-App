@@ -80,7 +80,8 @@ Demonstrating frontend project skills
 
 📸 Preview
 
-(Add screenshots or GIFs here)
+<img width="1890" height="926" alt="image" src="https://github.com/user-attachments/assets/7822d3b5-ea85-4bf9-a6b5-5127fa6ab75d" />
+
 
 📌 Future Improvements
 
