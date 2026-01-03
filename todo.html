@@ -1,0 +1,67 @@
+// Projects/todo.html
+// A simple Todo and Habit Tracker application
+// Made by Rezim Titora
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productivity App</title>
+  <link rel="stylesheet" href="todo.css" />
+</head>
+
+<body>
+
+<header>
+  <h1>⚡ Productivity App</h1>
+  <button id="themeToggle" type="button">🌙 Dark Mode</button>
+</header>
+
+<main>
+
+<section class="dashboard">
+  <h2>📊 Dashboard</h2>
+  <p>Total Tasks: <span id="totalTodos">0</span></p>
+  <p>Completed: <span id="doneTodos">0</span></p>
+
+  <div class="progressBar">
+    <div id="progressFill"></div>
+  </div>
+</section>
+
+<section>
+  <h2>📝 Todos</h2>
+
+  <div class="input-container">
+    <input id="todoInput" placeholder="Task name" aria-label="Task name" />
+    <input type="date" id="todoDate" aria-label="Due date" />
+    <select id="todoCategory" aria-label="Task category">
+      <option>Work</option>
+      <option>Study</option>
+      <option>Personal</option>
+      <option>Health</option>
+    </select>
+    <button id="addTodoBtn" type="button">Add</button>
+  </div>
+
+  <input id="searchInput" placeholder="🔍 Search tasks" aria-label="Search tasks" />
+  <div class="todo-container"></div>
+</section>
+
+<section>
+  <h2>🔥 Habit Tracker</h2>
+
+  <div class="input-container">
+    <input id="habitInput" placeholder="New habit" aria-label="New habit" />
+    <button id="addHabitBtn" type="button">Add Habit</button>
+  </div>
+
+  <div class="habit-container"></div>
+</section>
+
+</main>
+
+<script src="todo.js"></script>
+</body>
+</html>
