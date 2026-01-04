@@ -1,6 +1,6 @@
 // Projects/todo.js
 // A simple Todo and Habit Tracker application
-// Made by Rezim Titora
+// Made by Rezim Titoria
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -183,3 +183,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTodos();
   renderHabits();
 });
+
